@@ -1,0 +1,6 @@
+#. The textfile, travel_plans.txt, contains the summer travel plans for someone with some commentary. Find the total number of characters in the file and save to the variable num.
+a= open("travel_plans.txt", 'r')
+b = a.read()
+num = 0
+for i in b:
+    num=num+1
